@@ -1,9 +1,6 @@
 # aws_swrole
 
-[![Build Status][travis-badge]][travis-link]
-[![Slack Room][slack-badge]][slack-link]
-
-Switch AWS IAM Roles and start new session.
+Switch AWS IAM Roles to set envriomnent variables.
 
 ## Requirements
 
@@ -14,10 +11,10 @@ This plugin use these command line tools.
 
 ## Install
 
-With [fisherman]
+Use [fisherman]
 
 ```
-fisher waddyu/aws_swrole
+fisher cm-wada-yusuke/aws_swrole
 ```
 
 ## Usage
@@ -27,8 +24,7 @@ aws_swrole [-o] <aws profile>
 ```
 
 * Print AWS_XXX environments commands with -o option.
-* Without -o option, start new fish shell with AWS_XXX environments set.
-* AWS Session will be expired in a hour.
+* Without -o option to set AWS_XXX environments.
 
 ## Example
 
@@ -63,8 +59,5 @@ set -x AWS_SECRET_ACCESS_KEY YYYYYYYYYYYYYYYYYYYYYYYY
 set -x AWS_SESSION_TOKEN ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 ```
 
-[travis-link]: https://travis-ci.org/waddyu/aws_swrole
-[travis-badge]: https://img.shields.io/travis/waddyu/aws_swrole.svg
-[slack-link]: https://fisherman-wharf.herokuapp.com
 [slack-badge]: https://fisherman-wharf.herokuapp.com/badge.svg
 [fisherman]: https://github.com/fisherman/fisherman
