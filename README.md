@@ -8,13 +8,15 @@ This plugin use these command line tools.
 
 * [aws/aws\-cli: Universal Command Line Interface for Amazon Web Services](https://github.com/aws/aws-cli)
 * [stedolan/jq: Command\-line JSON processor](https://github.com/stedolan/jq)
+* [jorgebucaran/fish\-getopts: Parse CLI options in fish\.](https://github.com/jorgebucaran/fish-getopts)
 
 ## Install
 
-Use [fisherman]
+Use [fisher](https://github.com/jorgebucaran/fisher)
 
 ```
-fisher cm-wada-yusuke/aws_swrole
+fisher add jorgebucaran/fish-getopts
+fisher add cm-wada-yusuke/aws_swrole
 ```
 
 ## Usage
